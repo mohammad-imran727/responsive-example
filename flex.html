@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> responsive layout
+
+  </title>
+  <style>
+    .container {
+      display: flex;
+
+    }
+
+    .container2 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+
+    }
+
+    .box {
+      background-color: skyblue;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .item {
+      width: 200px;
+      height: 100px;
+      border: 3px solid navy;
+      background-color: aquamarine;
+    }
+
+    @media screen and (max-width: 576px) {
+      .container {
+        flex-direction: column;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <h3> first flexbox</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis perferendis, ab molestiae et similique
+        explicabo nemo delectus mollitia, itaque ea porro sit, rerum unde dolore doloribus ullam quas. Beatae eius iste
+        illo, iusto esse voluptas, eaque animi inventore assumenda incidunt corporis laudantium quidem earum officiis
+        dolorum, distinctio similique! Minus, voluptatum.</p>
+    </div>
+    <div class="box">
+      <h3>second flexbox</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores aperiam fugiat quia minus amet quaerat velit
+        animi qui quo debitis praesentium nam, deserunt nulla rerum cumque error placeat similique eius illum fuga
+        quasi! Voluptatum cupiditate unde blanditiis modi maiores quos, aperiam quaerat in at nisi delectus, dolor ea.
+        Ex, totam.</p>
+    </div>
+    <div class="box">
+      <h3>third flexbox</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate animi illum veritatis beatae corrupti nisi
+        corporis, deleniti dolore eum, adipisci odio? Atque, veritatis. Aut omnis, doloribus debitis, eaque ab,
+        voluptates recusandae sunt deserunt ducimus soluta illo eveniet porro quibusdam velit.</p>
+    </div>
+  </div>
+  <div class="container2">
+    <div class="item">item-1</div>
+    <div class="item">item-2</div>
+    <div class="item">item-3</div>
+    <div class="item">item-4</div>
+    <div class="item">item-5</div>
+    <div class="item">item-6</div>
+    <div class="item">item-7</div>
+    <div class="item">item-8</div>
+    <div class="item">item-9</div>
+    <div class="item">item-10</div>
+    <div class="item">item-11</div>
+    <div class="item">item-12</div>
+    <div class="item">item-13</div>
+    <div class="item">item-14</div>
+    <div class="item">item-15</div>
+    <div class="item">item-16</div>
+    <div class="item">item-17</div>
+    <div class="item">item-18</div>
+    <div class="item">item-19</div>
+    <div class="item">item-20</div>
+  </div>
+</body>
+
+</html>
